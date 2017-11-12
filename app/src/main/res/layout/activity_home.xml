@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.runachaqui.runachaqui.HomeActivity"
+    android:background="@drawable/fondologin"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btnEmpezarJuego"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="20dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/uno"/>
+
+    <ImageButton
+        android:id="@+id/btnRanking"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="20dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/dos"/>
+
+    <ImageButton
+        android:id="@+id/btnQR"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:padding="20dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/cinco"/>
+</LinearLayout>

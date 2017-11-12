@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.runachaqui.runachaqui.RegisterActivity"
+    android:background="@drawable/fondologin"
+    android:orientation="vertical">
+
+
+    <!-- <Spinner
+        android:id="@+id/spColegios"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:layout_gravity="right"/>
+
+        -->
+
+    <EditText
+        android:id="@+id/etUsernameRegister"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Escribe nombre de usuario"
+        android:layout_gravity="right"/>
+
+
+
+    <EditText
+        android:id="@+id/etClaveRegister"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Escribe una clave"
+        android:inputType="textPassword"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/btnRegistrarActivity"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="22dp"
+        android:text="Registrarse" />
+
+
+</LinearLayout>

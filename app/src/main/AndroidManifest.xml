@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.runachaqui.runachaqui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".ApplicationRunachaqui"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".AnimalActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".HistoryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".CapsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".TriviaActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape" />
+
+        <activity android:name=".RankingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".SliderActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>
